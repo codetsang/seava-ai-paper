@@ -1,0 +1,28 @@
+{
+  "name": "seavapaper-ai-vr-class-research",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate:figures": "python3 scripts/generate-figures.py",
+    "generate:fig1": "python3 scripts/generate-figures.py fig1",
+    "generate:fig2": "python3 scripts/generate-figures.py fig2",
+    "generate:fig3": "python3 scripts/generate-figures.py fig3",
+    "generate:fig4ui": "python3 scripts/generate-figures.py fig4ui",
+    "generate:pen": "python3 scripts/generate-pen-figures.py",
+    "export:pencil": "bash scripts/pencil-export-figures.sh"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "echarts-for-react": "^3.0.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^6.3.5"
+  }
+}

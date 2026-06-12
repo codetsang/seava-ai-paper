@@ -1,0 +1,149 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #e8e8e8;
+  font-family: "SimSun", "Songti SC", "STSong", serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+.page-wrapper {
+  max-width: 210mm;
+  min-height: 297mm;
+  margin: 24px auto;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  padding: 25mm 28mm 30mm;
+}
+
+h1 {
+  font-family: "SimHei", "Heiti SC", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 16px;
+}
+
+h2 {
+  font-family: "SimHei", "Heiti SC", sans-serif;
+  font-size: 16px;
+  margin: 24px 0 12px;
+  padding-left: 10px;
+  border-left: 4px solid #1a5276;
+}
+
+.section-word-count {
+  font-family: "SimSun", "Songti SC", serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+  margin-left: 8px;
+}
+
+h3 {
+  font-family: "SimHei", "Heiti SC", sans-serif;
+  font-size: 14px;
+  margin: 16px 0 8px;
+}
+
+p {
+  text-indent: 2em;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.no-indent {
+  text-indent: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0 18px;
+  font-size: 12.5px;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+th {
+  background: #d6eaf8;
+  font-weight: bold;
+}
+
+.caption {
+  text-align: center;
+  font-size: 12px;
+  color: #444;
+  margin: -8px 0 16px;
+}
+
+figure {
+  margin: 16px 0 20px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 12px;
+  color: #444;
+  margin-top: 6px;
+}
+
+.figure-box {
+  border: 1px solid #bbb;
+  background: #fff;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.figure-photo {
+  padding: 0;
+  background: transparent;
+  border: none;
+  line-height: 0;
+}
+
+.figure-img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.figure-chart {
+  padding: 4px 2px;
+  background: #fff;
+  min-height: 280px;
+}
+
+.section-divider {
+  border-top: 1px dashed #999;
+  margin: 32px 0 24px;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .page-wrapper {
+    box-shadow: none;
+    margin: 0;
+    padding: 20mm 25mm;
+  }
+}
