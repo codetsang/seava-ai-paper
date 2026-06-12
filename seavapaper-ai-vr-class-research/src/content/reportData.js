@@ -1,7 +1,7 @@
 // 各部分正文字数（汉字计，含段落、表格、图题表题；正文改动后请同步更新）
 export const sectionWordCounts = {
-  part1: 2335,
-  part2: 829,
+  part1: 2458,
+  part2: 660,
 }
 
 // 表3 项目进度计划完成情况

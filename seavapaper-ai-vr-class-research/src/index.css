@@ -125,6 +125,11 @@ figcaption {
   margin: 0 auto;
 }
 
+.figure-img--half {
+  width: 50%;
+  max-width: 50%;
+}
+
 .figure-chart {
   padding: 4px 2px;
   background: #fff;
